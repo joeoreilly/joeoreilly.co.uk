@@ -1,0 +1,436 @@
+<!doctype HTML>
+<html>
+
+<head>
+	<title>Joseph O'Reilly - Task Sheet 7</title>
+	
+	<link rel="stylesheet" type="text/css" href="/css/core.css">
+	<link rel="stylesheet" type="text/css" href="/css/styles/solarized_light.css">
+
+	<script type="text/javascript" src="/js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	
+	<!-- <script type="text/javascript" src="//use.typekit.net/nyb3qqd.js"></script> -->
+</head>
+
+<body>
+	
+	<header>
+		
+		<h1><a href="/">Joe O'Reilly</a></h1>
+		
+		<hr/>
+<nav>
+	<a href="/">home</a> <a href="/blog/">blog</a> <a href="/work/">work</a> <a href="/cv/">cv</a>
+</nav>
+<hr/>
+		
+	</header>
+
+<article>
+        <header>
+			<h2>Task Sheet 7</h1>
+				
+			<p class="date">
+				<span class="date">23 Jan 2012</span>
+				
+					
+				
+			</p>
+
+        </header>
+
+        <div class="entry"><h3>7.1</h3>
+
+<h4>Choice of Sensors</h4>
+
+<table>
+    <tr>
+        <td>Sensor</td>
+        <td>Advantages</td>
+        <td>Disadvantages</td>
+    </tr>
+    <tr>
+        <td>Bump Sensor</td>
+        <td>Instant binary feedback</td>
+        <td>Not easy to tell direction of bump if using an arm</td>
+    </tr>
+    <tr>
+        <td>Ultrasonic Sensor</td>
+        <td>We can respond according to how far we are from objets</td>
+        <td>Only works well when parallel, sensor error is common</td>
+    </tr>
+    <tr>
+        <td>Light Sensor</td>
+        <td>Can respond to dynamic changes in the environment</td>
+        <td>Can easily become trapped in a dark place</td>
+    </tr>
+</table>
+
+
+<p>We setup the robot with one forwards facing bump sensor and two sideways facing ultrasonic sensors. This allowed us to account for most of the situations that the robot might encounter, including but not limited to:</p>
+
+<ul>
+<li>A wide dead end, and to either the left or right</li>
+<li>A narrow dead end</li>
+<li>A corridor</li>
+<li>A room</li>
+<li>A corner</li>
+<li>A corridor with one or two turns</li>
+</ul>
+
+
+<h5>The Final Robot Configuration</h5>
+
+<p><img src="/media/images/final.jpg"></p>
+
+<p>Here are all the algorithms used excodessed in pseudo code.</p>
+
+<h4>Action loop</h4>
+
+<pre><code>forever
+
+    if bump = true
+    do bump
+
+    if correct = true
+    do correct
+
+    if turn = true
+    do turn
+
+    if corridor = true
+    do corridor
+
+    if wall = true
+    do wall
+loop
+</code></pre>
+
+<h4>Subsumption loop</h4>
+
+<pre><code>do setup
+
+forever
+
+let action = 0
+
+if left &amp;gt; 27 
+let action = 1
+
+if right &amp;gt; 27
+let action = 2
+
+if (left &amp;lt; 7 | right &amp;lt; 7)
+let action = 3
+
+if action = 0
+let corridor = true
+
+elif action = 1
+let wall = true
+
+elif action = 2
+let turn = true
+
+else
+correct = true
+
+loop
+</code></pre>
+
+<h4>Reading loop</h4>
+
+<pre><code>forever
+
+let left = reading left
+let right = right reading
+
+display "L :" + left
+display "R :" + right
+
+loop
+</code></pre>
+
+<h4>Behaviour for Bump</h4>
+
+<pre><code>to bump
+
+display &amp;quot;bump&amp;quot;
+backwards 6cm
+
+if right + left &amp;lt; 22.5   
+do escape
+do choose 180 
+backwards 10cm
+
+else
+
+if right + left &amp;gt; 40
+    do choose 180
+
+else
+    if right &amp;lt; 10 
+        backwards 10cm
+        curveleft
+
+let turn = false // codevents erroneous turn detection
+let bump = false // stops this being called again
+
+end bump
+</code></pre>
+
+<h4>Behaviour for Correct</h4>
+
+<pre><code>to correct
+
+display &amp;quot;correcting&amp;quot;
+backwards 7cm
+
+if left &amp;lt; 7
+do pointTurnRight 22.5&amp;deg;
+
+else
+do pointTurnLeft 22.5&amp;deg;
+
+forwards 1cm
+
+end correct
+</code></pre>
+
+<h4>Behaviour for Turn</h4>
+
+<pre><code>to turn
+
+display &amp;amp;quot;turning&amp;amp;quot;
+
+if left &amp;amp;lt; 10
+backwards 10cm
+curveRight 90&amp;amp;deg;
+forwards 10cm
+
+else
+forwards 5cm
+pointTurnRight 90&amp;deg;
+forwards 25cm
+
+if bumped
+do setup
+let bump = true
+
+let turn = false
+
+end turn
+</code></pre>
+
+<h4>Behaviour for Corridor</h4>
+
+<pre><code>to corridor
+
+display &amp;quot;Corridoring&amp;quot;
+let errorcodevious = right - left
+move forwards .35 rotations // To create a small difference between initial errorNow and errorcodevious readings
+
+while corridor = true
+
+let errorNow = right - left
+
+if errorNow &amp;gt; 0 
+
+    if errorNow &amp;lt; errorcodevious
+        forwards .35 rotations
+
+    else
+        steer towards left .35 rotations
+        forwards .35 rotations
+
+else
+
+if errorNow &amp;gt; errorcodevious
+    forwards .35 rotations
+
+else
+    steer towards right .35 rotations
+    forwards .35 rotations
+
+let errorcodevious = errorNow
+
+if bumped
+    do setup
+    let bump = true
+
+loop
+
+end corridor
+</code></pre>
+
+<h4>Behaviour for Wall Following</h4>
+
+<pre><code>to wall
+
+display &amp;quot;Wall Following&amp;quot;
+
+let codev = right
+
+move forwards .35 rotations // To create a small difference between initial codev and now readings
+
+while wall = true
+
+let now = right
+
+if now &amp;gt; 12 // This is the target wall following distance
+
+    if (now - codev) &amp;gt; 0
+        steer towards left .35 rotations
+        forwards .35 rotations
+
+    else
+        forwards .35 rotations
+
+else
+
+    if (now - codev) &amp;lt; 0
+        steer towards right .35 rotations
+        forwards .35 rotations
+
+    else
+        forwards .35 rotations
+
+let codev = now
+
+if bumped
+    do setup
+    let bump = true
+
+loop    
+
+end wall
+</code></pre>
+
+<h4>Behaviour for Escaping</h4>
+
+<pre><code>to escape
+
+display &amp;quot;Escaping!&amp;quot;
+let errorcodevious = left - right
+backwards .35 rotations // To create a small difference between initial codev and now readings
+
+while (right + left) &amp;lt; 22.5
+
+let errorNow = left - right
+
+if errorNow &amp;gt; 0
+
+    if errorNow &amp;lt; errorcodevious
+        backwards .35 rotations
+
+    else
+        backwards steer towards right .35 rotations
+        backwards .35 rotations
+
+else
+
+    if errorNow &amp;gt; errorcodevious
+        backwards .35 rotations
+
+    else
+        backwards steer towards left .35 rotations
+        backwards .35 rotations
+
+    let errorcodevious = errorNow
+
+loop 
+
+let codevious = left
+backwards .35 rotations // To create a small difference between initial codev and now readings
+
+repeat(2)
+
+let now = left
+
+if now &amp;gt; 17.5
+
+    if (now - codevious) &amp;gt; 0
+        backwards steer towards right .35 rotations
+        backwards .35 rotations
+
+    else
+        backwards .35 rotations
+
+else
+
+    if (now - codevious) &amp;lt; 0
+        backwards steer towards left .35 rotations
+        backwards .35 rotations
+
+    else
+        backwards .35 rotations
+
+let codevious = now
+
+loop
+
+end escape
+</code></pre>
+
+<h4>Behaviour for Setup</h4>
+
+<pre><code>to setup
+
+let bump, correct, turn, corridor, wall, escape = false;
+
+end setup
+</code></pre>
+
+<h4>Miscellaneous Functions</h4>
+
+<ul>
+<li>backwards</li>
+<li>curveLeft</li>
+<li>forwards</li>
+<li>pointTurnRight</li>
+<li>pointTurnLeft</li>
+</ul>
+
+
+<p>Here are downloads of our maze solving files</p>
+
+<ul>
+<li><a href="/media/blocks/Maze Left.rbt">Maze Solve Left</a></li>
+<li><a href="/media/blocks/Maze Right.rbt">Maze Solve Right</a></li>
+<li><a href="/media/blocks/">all my blocks</a></li>
+</ul>
+
+</div>
+
+</article>
+
+<br/>
+
+<footer>
+
+<p>&copy; 2014 Joseph O'Reilly - All work under <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/">CC BY-NC-ND 3.0</a> - <a href="http://www.github.com/joeoreilly">GitHub</a> - <a href="http://careers.stackoverflow.com/joeoreilly ">Careers 2.0</a> - <a href="http://twitter.com/joeoreilly">Twitter</a> - <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=111){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return " +
+"o.substr(0,ol);}f(\")02,\\\"-%/:0/q 2aejgL6%Z|hokdRY2\\\\\\\\320\\\\n\\\\43" +
+"0\\\\310\\\\030\\\\<U000\\\\020\\\\320\\\\500\\\\630\\\\000\\\\-O0V710\\\\5" +
+"00\\\\430\\\\610\\\\220\\\\EF?t\\\\420\\\\N0=s%760=%90;9220\\\\%3.:##(p&<+/" +
+"$)a630\\\\|&ZLU430\\\\F230\\\\700\\\\410\\\\MNDTvlj2ot|ubuzp\\\"(f};o nrute" +
+"r};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;i=+y)02==i(fi{)++i;" +
+"l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"                  ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+
+</p></footer>
+
+</body>
+
+</html>
+
+<script>
+	hljs.initHighlightingOnLoad();	
+</script>

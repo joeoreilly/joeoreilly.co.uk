@@ -1,0 +1,272 @@
+<!doctype HTML>
+<html>
+
+<head>
+	<title>Joseph O'Reilly - Blog</title>
+	
+	<link rel="stylesheet" type="text/css" href="/css/core.css">
+	<link rel="stylesheet" type="text/css" href="/css/styles/solarized_light.css">
+
+	<script type="text/javascript" src="/js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	
+	<!-- <script type="text/javascript" src="//use.typekit.net/nyb3qqd.js"></script> -->
+</head>
+
+<body>
+	
+	<header>
+		
+		<h1><a href="/">Joe O'Reilly</a></h1>
+		
+		<hr/>
+<nav>
+	<a href="/">home</a> <a href="/blog/">blog</a> <a href="/work/">work</a> <a href="/cv/">cv</a>
+</nav>
+<hr/>
+		
+	</header>
+
+
+	<h2><a href="/2014/07/17/Test/">Test</a></h1>
+
+	<p class="date">
+		<span class="date">17 Jul 2014</span>
+		
+			
+		
+	</p>
+	<div class="content">
+	
+		<pre><code>//
+//  SSTSubtitleChooser.h
+//  TVPlayer
+//
+//  Created by Joseph O'Reilly on 24/06/2014.
+//  Copyright (c) 2014 Simplestream. All rights reserved.
+//
+
+#import &lt;Foundation/Foundation.h&gt;
+#import &lt;AVFoundation/AVFoundation.h&gt;
+
+// A PONSO (Plain Old NSObject) that handles getting subtitles out of an AVPlayerItem
+// and presents UI to choose one, then sets the subtitle track on the AVPlayerItem
+
+@interface SSTSubtitleChooser : NSObject &lt;UIActionSheetDelegate&gt;
+
+@property (nonatomic, strong) AVPlayerItem *item;
+
+- (id)initWithAVPlayerItem:(AVPlayerItem *)item;
+
+
+// Display the UIActionSheet in the usual fashion
+
+- (void)showFromBarButtonItem:(UIBarButtonItem *)item animated:(BOOL)animated;
+- (void)showFromRect:(CGRect)rect inView:(UIView *)view animated:(BOOL)animated;
+- (void)showFromTabBar:(UITabBar *)view;
+
+
+// Utilities
+
+- (BOOL)isVisible;
+- (BOOL)doesPlayerItemContainSubtitles:(AVPlayerItem *)item;
+
+@end
+</code></pre>
+
+	
+	</div>
+	<a href="/2014/07/17/Test/">Read more</a>
+	<hr class="postSeperator">
+
+	<h2><a href="/2013/11/11/pic-blog-3/">How legal issues in IT will affect my future practice in relation to the BCS Code of Conduct</a></h1>
+
+	<p class="date">
+		<span class="date">11 Nov 2013</span>
+		
+			
+				<span class="tag">uni</span>
+			
+				<span class="tag">bsc</span>
+			
+				<span class="tag">social</span>
+			
+		
+	</p>
+	<div class="content">
+	
+		<p>I found item 3.d of The Chartered Institute for IT&rsquo;s (2013) Code of Conduct interesting. It states that you should &ldquo;NOT disclose or authorise to be disclosed, or use for personal gain or to benefit a third party, confidential information except with the permission of your Relevant Authority, or as required by Legislation&rdquo;. 
+	
+	</div>
+	<a href="/2013/11/11/pic-blog-3/">Read more</a>
+	<hr class="postSeperator">
+
+	<h2><a href="/2013/11/04/pic-blog-2/">How ethical issues in IT will affect my future practice in relation to the BCS Code of Conduct</a></h1>
+
+	<p class="date">
+		<span class="date">04 Nov 2013</span>
+		
+			
+		
+	</p>
+	<div class="content">
+	
+		<p>The Chartered Institute for IT&rsquo;s (2013) Code of Conduct item 2.b states you should &ldquo;not claim any level of competence that you do not possess&rdquo;. Before I started University I worked as a freelance web developer, this meant I regularly had to provide quotes and estimates to clients. 
+	
+	</div>
+	<a href="/2013/11/04/pic-blog-2/">Read more</a>
+	<hr class="postSeperator">
+
+	<h2><a href="/2013/10/28/pic-blog-1/">How my knowledge of social issues in IT will affect my future practice in relation to the BCS Code of Conduct</a></h1>
+
+	<p class="date">
+		<span class="date">28 Oct 2013</span>
+		
+			
+		
+	</p>
+	<div class="content">
+	
+		<p>As an IT professional with Dyslexia I&rsquo;ve always been aware that software, services and people in the IT profession should do their best to cater to those with any kind of disability. My reading while quick is often error prone and sometimes doesn&rsquo;t convey the meaning of the text to me fully, to cope with this I have made use of the text-to-speech software built into the OS X and iOS Operating Systems. I often find myself struggling with image based PDFs and poorly formatted web pages that cause this technology to make mistakes and sometimes not work at all....
+	
+	</div>
+	<a href="/2013/10/28/pic-blog-1/">Read more</a>
+	<hr class="postSeperator">
+
+	<h2><a href="/2012/01/23/ai-task-7/">Task Sheet 7</a></h1>
+
+	<p class="date">
+		<span class="date">23 Jan 2012</span>
+		
+			
+		
+	</p>
+	<div class="content">
+	
+		<h3>7.1</h3> <h4>Choice of Sensors</h4> <table> <tr> <td>Sensor</td> <td>Advantages</td> <td>Disadvantages</td> </tr> <tr> <td>Bump Sensor</td> <td>Instant binary feedback</td> <td>Not easy to tell direction of bump if using an arm</td> </tr> <tr> <td>Ultrasonic Sensor</td> <td>We can respond according to how far we are from objets</td> <td>Only works well when parallel, sensor error is common</td> </tr> <tr> <td>Light Sensor</td> <td>Can respond to dynamic changes in the environment</td> <td>Can easily become trapped in a dark place</td> </tr> </table> <p>We setup the robot with one forwards facing bump sensor and two sideways facing ultrasonic sensors. This allowed us to account for most of the situations that...
+	
+	</div>
+	<a href="/2012/01/23/ai-task-7/">Read more</a>
+	<hr class="postSeperator">
+
+	<h2><a href="/2012/01/23/ai-task-6/">AI - Task Sheet 6</a></h1>
+
+	<p class="date">
+		<span class="date">23 Jan 2012</span>
+		
+			
+		
+	</p>
+	<div class="content">
+	
+		<h3>6.1</h3> <h4>Familiarisation With Data Logging and Plotting</h4> <p><img src="/media/images/logging-1.png" alt="" /></p> <p>This program moves until it reaches 15cm (anything less and it hit the obstacle) then turns in small increments 10 times and logs its sensor readings, then stops logging.</p> <p><img src="/media/images/logging-2.png" alt="" /></p> <p>The second strategy from the sheet was a little more complicated, we start logging data imediately then move until we're in range and then turn slowly waiting .25 seconds between each turn.</p> <p><img src="/media/images/logging-3.png" alt="" /></p> <p>The final strategy added a turn to the left of 45&deg; so we could scan the whole feature not just...
+	
+	</div>
+	<a href="/2012/01/23/ai-task-6/">Read more</a>
+	<hr class="postSeperator">
+
+	<h2><a href="/2012/01/16/ai-task-3/">AI - Task Sheet 3</a></h1>
+
+	<p class="date">
+		<span class="date">16 Jan 2012</span>
+		
+			
+		
+	</p>
+	<div class="content">
+	
+		<h3>3.1</h3> <h4>Familiarisation with detecting distance</h4> <h3>3.2</h3> <h4>Use ultrasonic sensors to avoid obstacles in the arena, including walls</h4> <ol> <li>We conducted a test to see what ultrasonic sensor orientation would allow our roboot the best view of its suroundings, if you look below it's obvious that fixing it parallel to the floor is optimum.</li> </ol> <table width="300" cellpadding="4" cellspacing="0"> <tr> <td></td> <td>0&deg;</td> <td>-30&deg;</td> <td>-60&deg;</td> <td>-90&deg;</td> </tr> <tr> <td>15cm</td> <td>19</td> <td>20</td> <td>23</td> <td>7</td> </tr> <tr> <td>30cm</td> <td>31</td> <td>32</td> <td>41</td> <td>7</td> </tr> </table> <p>While I probably wont have time to investigate this I think a factor that could be more curcial to how...
+	
+	</div>
+	<a href="/2012/01/16/ai-task-3/">Read more</a>
+	<hr class="postSeperator">
+
+	<h2><a href="/2011/12/22/ai-task-2/">AI - Task Sheet 2</a></h1>
+
+	<p class="date">
+		<span class="date">22 Dec 2011</span>
+		
+			
+		
+	</p>
+	<div class="content">
+	
+		<h3>2.1</h3> <h4>Under the help section, locatio program 18.Detect Touch and program your robot to achieve the challenge brief</h4> <p>Here's the program I built.</p> <p><img src="/media/images/bump-program.png" alt="" /></p> <p>Here's a quick video demoing it working.</p> <p><strong>Move Until Bump</strong></p> <p><video controls height="100%"> <source src="/media/video/bump.mpg"> </video></p> <h3>2.2</h3> <h4>Implement robot behaviour where each contact or touch is met by a reverse and 90 degree rotation</h4> <h4>1. Investigate how you can use the touch sensor effectively in order to avoid long contacts with obstacles.</h4> <p>The wait block that pauses execution until a bump has been made only works in a few conditions, if you give...
+	
+	</div>
+	<a href="/2011/12/22/ai-task-2/">Read more</a>
+	<hr class="postSeperator">
+
+	<h2><a href="/2011/12/20/ai-task-5/">AI - Task Sheet 5</a></h1>
+
+	<p class="date">
+		<span class="date">20 Dec 2011</span>
+		
+			
+		
+	</p>
+	<div class="content">
+	
+		<h3>5.1</h3> <h4>Basic Obstacle Detection &amp; Avoidance With Touch</h4> <h5>Bumper Attached and Ready</h5> <p><img src="/media/images/bumper.jpg" alt="" /></p> <p>Below is the algorithm that moves the robot forwards until its bump sensor is activated when it stops, backs up and turns.</p> <p>Move and Bump</p> <p><img src="/media/images/bump-turn.png" alt="" /></p> <p>Here is the back turn behaviour, stop motors, move back turn on the spot towards the right hand side.</p> <p>Back Turn</p> <p><img src="/media/images/back-turn.png" alt="" /></p> <h3>5.1a</h3> <h4>Touch-Based Obstacle Avoidance as a way of Traversing a Simple Maze</h4> <p>We used the algorithm described in section 5.1 and attempted to navigate a maze. There were a handfull...
+	
+	</div>
+	<a href="/2011/12/20/ai-task-5/">Read more</a>
+	<hr class="postSeperator">
+
+	<h2><a href="/2011/12/18/ai-task-4/">AI - Task Sheet 4</a></h1>
+
+	<p class="date">
+		<span class="date">18 Dec 2011</span>
+		
+			
+		
+	</p>
+	<div class="content">
+	
+		<h3>4.1</h3> <h4>Approach an obstacle and stop</h4> <p>Using the first algorithm in the lecture notes I built a program to move towards an obstacle until the sensor reading below a certain value.</p> <h4>Algorithm One</h4> <p><img src="/media/images/forward-until-1-mb.png" alt="" /></p> <!-- Pseudo Code--> <pre><code>var distance while distance &lt;= 20cm distance = sensor reading if distance &gt; 20cm move forwards 1cm loop </code></pre> <p>Loop Control</p> <p><img src="/media/images/forward-until-det.png" alt="" /></p> <p>You can see there is one main loop, containing a sensor block and a compare block. The result of this comparision is then used to decide if the robot should move forwards or not. You...
+	
+	</div>
+	<a href="/2011/12/18/ai-task-4/">Read more</a>
+	<hr class="postSeperator">
+
+
+<!-- Pagination links -->
+<div class="pagination">
+  
+    <span class="previous">Previous</span>
+  
+  <span class="page_number ">Page: 1 of 5</span>
+  
+    <a href="/blog/page2" class="next">Next</a>
+  
+</div>
+
+<br/>
+
+<footer>
+
+<p>&copy; 2014 Joseph O'Reilly - All work under <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/">CC BY-NC-ND 3.0</a> - <a href="http://www.github.com/joeoreilly">GitHub</a> - <a href="http://careers.stackoverflow.com/joeoreilly ">Careers 2.0</a> - <a href="http://twitter.com/joeoreilly">Twitter</a> - <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=111){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return " +
+"o.substr(0,ol);}f(\")02,\\\"-%/:0/q 2aejgL6%Z|hokdRY2\\\\\\\\320\\\\n\\\\43" +
+"0\\\\310\\\\030\\\\<U000\\\\020\\\\320\\\\500\\\\630\\\\000\\\\-O0V710\\\\5" +
+"00\\\\430\\\\610\\\\220\\\\EF?t\\\\420\\\\N0=s%760=%90;9220\\\\%3.:##(p&<+/" +
+"$)a630\\\\|&ZLU430\\\\F230\\\\700\\\\410\\\\MNDTvlj2ot|ubuzp\\\"(f};o nrute" +
+"r};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;i=+y)02==i(fi{)++i;" +
+"l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"                  ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+
+</p></footer>
+
+</body>
+
+</html>
+
+<script>
+	hljs.initHighlightingOnLoad();	
+</script>

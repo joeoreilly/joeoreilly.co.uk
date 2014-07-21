@@ -1,0 +1,120 @@
+<!doctype HTML>
+<html>
+
+<head>
+	<title>Joseph O'Reilly - AI - Task Sheet 2</title>
+	
+	<link rel="stylesheet" type="text/css" href="/css/core.css">
+	<link rel="stylesheet" type="text/css" href="/css/styles/solarized_light.css">
+
+	<script type="text/javascript" src="/js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	
+	<!-- <script type="text/javascript" src="//use.typekit.net/nyb3qqd.js"></script> -->
+</head>
+
+<body>
+	
+	<header>
+		
+		<h1><a href="/">Joe O'Reilly</a></h1>
+		
+		<hr/>
+<nav>
+	<a href="/">home</a> <a href="/blog/">blog</a> <a href="/work/">work</a> <a href="/cv/">cv</a>
+</nav>
+<hr/>
+		
+	</header>
+
+<article>
+        <header>
+			<h2>AI - Task Sheet 2</h1>
+				
+			<p class="date">
+				<span class="date">22 Dec 2011</span>
+				
+					
+				
+			</p>
+
+        </header>
+
+        <div class="entry"><h3>2.1</h3>
+
+<h4>Under the help section, locatio program 18.Detect Touch and program your robot to achieve the challenge brief</h4>
+
+<p>Here's the program I built.</p>
+
+<p><img src="/media/images/bump-program.png" alt="" /></p>
+
+<p>Here's a quick video demoing it working.</p>
+
+<p><strong>Move Until Bump</strong></p>
+
+<p><video controls height="100%">
+    <source src="/media/video/bump.mpg">
+</video></p>
+
+<h3>2.2</h3>
+
+<h4>Implement robot behaviour where each contact or touch is met by a reverse and 90 degree rotation</h4>
+
+<h4>1. Investigate how you can use the touch sensor effectively in order to avoid long contacts with obstacles.</h4>
+
+<p>The wait block that pauses execution until a bump has been made only works in a few conditions, if you give a robot a number of rotations to complete then the move block will complete, or try to complete, before the wait block is even acknowledged meaning your robot may just drive aimlessly into the wall. To conteract this you must give all move blocks an unlimited value and control your robot from another location so as when you could recieve a bump it will be reacted upon instantly.</p>
+
+<h4>2. Investigate how to use loops within the program in order to program a revese-rotate scenario after each contact. Use our findings from last session in order to devise a reverse (duration = 1 rotation) plus a quarter circle turn (90 degrees left or right) after each touch detection.</h4>
+
+<p><img src="/media/images/forward-until-touch-mb.png" alt="" /></p>
+
+<p>Here you can see a program the goes forwards, and when the bump sensor is triggered it rolls back and does a 90 degree turn. After this it repeats and waits for the next collision.</p>
+
+<h4>3. Once your previous steps are done, try your robot inside the maze and write your observations. Comment on whether your robot managed to solve the maze, or if it was trapped in some unexpected loop holes. Try to explain your reasons for your observations</h4>
+
+<p>When I ran this code in the maze the robot was able to handle wider turns, and manage some of the corridors.</p>
+
+<p><img src="/media/images/diagram-corner-1.png" alt="" /></p>
+
+<p>However it has no correction to aid it, so if it starts heading down a corridor at an angle it runs into the edge and filps onto its side/back and gets stuck.</p>
+
+<p><img src="/media/images/diagram-loop-1.png" alt="" /></p>
+
+<p>If the robot manages to escap the embarassment of capsizing it takes the same turn over and over again meaning it can very easily enter a part of the maze it could never get out of.</p>
+
+<h4>4. Hypothetically speaking, with a robot with two touch sensors, would you have any additional capabilities or advatanges in solving a maze? Please explain what are the added advantages for having two sensors, which can determine left and right side contact separately</h4>
+
+<p>If we give the robot an instruction to go forwards for a set number of rotations it become stuck if the wheels aren't turning. Because the robot knows how many turns its wheels have made it just keeps trying to go forwards, so it just stays stuck. This is solved in our current desing by having a forward facing bump sensor, however if we want to reverse we then again face the problem if stuck wheels. A second bump sensor would allow us to detect this problem and totally elimiate situations in which the robot could become stuck.</p>
+</div>
+
+</article>
+
+<br/>
+
+<footer>
+
+<p>&copy; 2014 Joseph O'Reilly - All work under <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/">CC BY-NC-ND 3.0</a> - <a href="http://www.github.com/joeoreilly">GitHub</a> - <a href="http://careers.stackoverflow.com/joeoreilly ">Careers 2.0</a> - <a href="http://twitter.com/joeoreilly">Twitter</a> - <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=111){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return " +
+"o.substr(0,ol);}f(\")02,\\\"-%/:0/q 2aejgL6%Z|hokdRY2\\\\\\\\320\\\\n\\\\43" +
+"0\\\\310\\\\030\\\\<U000\\\\020\\\\320\\\\500\\\\630\\\\000\\\\-O0V710\\\\5" +
+"00\\\\430\\\\610\\\\220\\\\EF?t\\\\420\\\\N0=s%760=%90;9220\\\\%3.:##(p&<+/" +
+"$)a630\\\\|&ZLU430\\\\F230\\\\700\\\\410\\\\MNDTvlj2ot|ubuzp\\\"(f};o nrute" +
+"r};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;i=+y)02==i(fi{)++i;" +
+"l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"                  ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+
+</p></footer>
+
+</body>
+
+</html>
+
+<script>
+	hljs.initHighlightingOnLoad();	
+</script>

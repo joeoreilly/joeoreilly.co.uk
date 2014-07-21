@@ -1,0 +1,7 @@
+# ENABLE DIRECTORY VIEWS
+Options +Indexes
+IndexOptions IgnoreCase FancyIndexing FoldersFirst NameWidth=* DescriptionWidth=* SuppressHTMLPreamble
+IndexOrderDefault Descending Name
+
+HeaderName /include/dir_header.html
+ReadmeName /include/dir_footer.html
