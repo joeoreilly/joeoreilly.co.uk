@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1{
-	font-size: 30px;
+	font-size: 32px;
 }
 
 h2 {
@@ -41,24 +41,25 @@ h2 {
 }
 
 h3 {
-	margin-top: 1.5em;
-	font-size: 20px;
+/*	margin-top: 1.5em;*/
 }
 
 h4 {
 	font-size: 18px;
 }
 
+.caption,
 .date {
 	color: #aaa;
-	margin-top: -1em;
+	margin-top: -1.8em;
 	font-size: 14px;
 }
 
-.date span:nth-child(2) {
+
+/*.date span:nth-child(2) {
 	margin-left: 10px;
 }
-
+*/
 .tag {
 	background: #eee;
 	color: #fff;
@@ -148,12 +149,20 @@ body {
 	column-rule: 1px solid #ddd;
 
 	-webkit-column-count:2;
-	-webkit-column-gap: 40px;
+	-webkit-column-gap: 20px;
 	-webkit-column-rule: 1px solid #ddd;
 	
 	-moz-column-count:2;
 	-moz-column-gap: 40px;
 	-moz-column-rule: 1px solid #ddd;
+}
+
+.col p {
+	line-height: 24px;
+}
+
+.col h4 {
+	margin-top: 0;
 }
 
 /* Media Queries */
@@ -165,6 +174,8 @@ body {
 		column-count:1;
 		-webkit-column-count:1;
 		-moz-column-count:1;
+		
+		padding-bottom: 2em;
 	}
 }
 

@@ -15,7 +15,7 @@ I decided it would be good to practice this new illustration technique with a sm
 
 I opened the photos in Illustrator and started to work.
 
-![](</media/images/hands/illustrator-01.png)
+![](/media/images/hands/illustrator-01.png)
 
 I created the usual layers I would usually create and began to work.
 

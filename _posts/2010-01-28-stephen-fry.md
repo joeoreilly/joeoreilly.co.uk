@@ -71,8 +71,9 @@ Nearly there, just need to work on the skin.
 
 ![](/media/images/fry/stephen-fry.png)
 
-<a href="/media/images/fry/stephen-fry-huge.png">Huge version</a><br/>
-<a href="/media/images/fry/stephen-fry-large.png">Large version</a>
+[Huge version](/media/images/fry/stephen-fry-huge.png)
+
+[Large version](/media/images/fry/stephen-fry-large.png)
 
 ### A little self criticism
 
