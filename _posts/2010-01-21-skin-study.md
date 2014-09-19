@@ -77,13 +77,13 @@ I think this looks far better than before! I'm guna roll with it.
 
 I worked a bit of shading in and got my final result.
 
-<a href="images/skin/skin.jpg" rel="milkbox" title="The result"  onmouseover="document.skin.src='/media/images/skin/skin-photoshop-06b.png'" onmouseout="document.skin.src='/media/images/skin/skin-photoshop-06.png'">
+<a href="/media/images/skin/skin.jpg" rel="milkbox" title="The result"  onmouseover="document.skin.src='/media/images/skin/skin-photoshop-06b.png'" onmouseout="document.skin.src='/media/images/skin/skin-photoshop-06.png'">
 <img src="/media/images/skin/skin-photoshop-06.png" name="skin">
-click to view larger
+<br/>click to view larger
 </a>
 
-[Download Large](images/skin/skin-huge.jpg">
+[Download Large](/media/images/skin/skin-huge.jpg")
 
-[Download PSD](images/skin/skin.psd)
+[Download PSD](/media/images/skin/skin.psd)
 
 The goal of this work was to create something I could feed into my second illustration. I'm hopefully going to be able to use this to make the skin look rotten, dead and like it's been joined, poorly. :D
