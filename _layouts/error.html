@@ -4,22 +4,10 @@ layout: default
 
 {% include header.html %}
 
-<article>
-        <header>
-			<center>
-				<br/>
-				Sorry, there was an error
-				<br/>
-				<br/>
-				<hr style="width:20%">
-				<h2 style="font-family: Georgia; font-size: 500%; margin: 0 0 30px 0;">{{ page.title }}</h1>
-				<hr style="width:20%">
-				<br/>
-				<p>{{ page.content }}</p>
-
-			</center>
-		</header>
-
-</article>
+<div class="error">
+	<p>Sorry, there was an error<p>
+	<h2>{{ page.title }}</h1>
+	<p>{{ page.content }}</p>
+</div>
 
 {% include footer.html %}

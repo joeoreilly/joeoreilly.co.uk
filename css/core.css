@@ -290,3 +290,21 @@ div.grid a:hover {
 	padding:0px;
 	margin:0px;
 }
+
+/* Errors */
+
+.error {
+	text-align: center;
+	margin: 50px 0;
+}
+
+.error h2 {
+	font-family: "Georgia";
+	font-size: 400%;
+	border: 1px solid #ddd;
+	border-left: none;
+	border-right: none;
+	padding: 5px 0 15px;
+	width: 25%;
+	margin: 50px auto;
+}
