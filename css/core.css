@@ -290,6 +290,18 @@ div.grid a:hover {
 	padding:0px;
 	margin:0px;
 }
+/* Apps */
+.hor-scroller {
+	overflow: scroll;
+	overflow-y: hidden !important;
+	white-space: nowrap;
+	padding: 10px 0;
+}
+
+.hor-scroller img {
+	display: inline-block;
+	padding-right: 10px;
+}
 
 /* Errors */
 
