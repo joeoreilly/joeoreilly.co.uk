@@ -1,69 +1,10 @@
 ---
 title: Curriculum Vitae
 layout: cv
-lastupdate: 31st May 2014
+lastupdate: 18th May 2015
 ---
 
-I am a final year Computer Science student expecting a first class degree with five years work experience in the IT industry. I&rsquo;m passionate about design, creating accessible, attractive user interfaces and writing well structured, efficient and presentable code. I enjoy working in teams and independently. I am confident in prioritising tasks and managing multiple demands. I&rsquo;m comfortable working with staff at all levels of a business and have done so throughout my career. I have a strong creative process developed through and following completion of an A Level in Art &amp; Design. I have interests in photography, Indie music and spending time with my family.
-
-Full clean driving license, CRB checked, Training in Health &amp; Safety and First Aid
-
----
-
-##Education &amp; Qualifications
-
-### University of Hertfordshire
-
-<p class="date">September 2010 - May 2014, BSc Computer Science</p>
-
-#### Current Modules
-
-* Real Time Systems
-* Further Object Oriented Development
-* Computer Networks Protocols and Architectures
-* Professional Issues in Computing
-
-#### Year Two
-
-* Artificial Intelligence and Robotics
-* Programming and Program Design 2
-* Operating Systems and Computer Networks
-* Computer Science Development Exercise
-
-#### Year One - Semester A
-
-* Programming Principles
-* Foundations of Computation
-* Systems Requirements
-* E-Media Design
-
-#### Year One - Semester B
-
-* Principles of AI and Artificial Life
-* Programming and Program Design
-* Principles of Network Systems
-* Data Driven Systems
-
-
-### Chalfonts Community College
-
-<p class="date">September 2002 - May 2010</p>
-
-#### A Levels
-
-* Art &amp; Design - A
-* ICT - C
-
-#### Other Qualifications
-
-* CCNA - A
-
-#### GCSEs
-
-5 As, 5 Bs, 2 Cs and 1 D (Including A's in Maths, English and Art)
-
-### Extra Circular Activities
-Ran an video gaming club at lunch time for younger students
+<p>I am an iOS developer with two years industry experience, plus five further years in the larger IT industry. I'm passionate about design, creating accessible, attractive user interfaces and writing well structured, efficient and presentable code. I enjoy working in teams and independently. I am confident in prioritising tasks and managing multiple demands. I'm comfortable working with staff at all levels of a business and have done so throughout my career. I have a strong creative process and enjoy good design, and I am also confident in Photoshop and Illustrator CC.</p>
 
 ---
 
@@ -72,10 +13,10 @@ Ran an video gaming club at lunch time for younger students
 ### Simplestream Limited - iOS Developer
 <p class="date">2014 - present</p>
 
-* Maintained serveral large iOS Apps
+* Maintained several large iOS Apps
 * Improved Apps and implemented new features
-* Archietced and implementated several new iOS Apps
-* Worked with JSON endpoints to provide Apps with data
+* Architected and implemented several new iOS Apps
+* Worked with RESTful APIs
 
 ### Bestoutcome Limited - iOS Developer
 <p class="date">2012 - 2013</p>
@@ -129,3 +70,43 @@ Ran an video gaming club at lunch time for younger students
 * Good team working
 * Confident with Microsoft Office, iWork and iLife and all major web browsers
 * Can communicate complex information clearly
+
+---
+
+##Education &amp; Qualifications
+
+### University of Hertfordshire
+
+<p class="date">September 2010 - May 2014, BSc Computer Science</p>
+
+<p>During my time at Herts I studied some of the following topics: </p>
+
+* Real Time Systems
+* Object Oriented Development
+* Artificial Intelligence
+* Robotics
+* Unix and systems programming
+* Foundations of Computation
+* Systems Requirements
+* Database Design
+
+<h3>Chalfonts Community College</h3>
+
+<p class="date">September 2002 - May 2010</p>
+
+#### A Levels
+
+* Art &amp; Design - A
+* ICT - C
+
+#### Other Qualifications
+
+* CCNA - A
+
+#### GCSEs
+
+5 As, 5 Bs, 2 Cs and 1 D (Including A's in Maths, English and Art)
+
+### Extra Circular Activities
+
+Ran an video gaming club at lunch time for younger students
