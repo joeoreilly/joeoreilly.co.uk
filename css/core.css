@@ -1,34 +1,48 @@
-/* Appearance */
-
 body {
-	color: #555;
-	font-family: "Georgia";
+	color: #666;
+	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 	font-weight: lighter;
+	margin: 0 auto;
+	padding: 15px;
+	width: 900px;
+	font-size: 16px;
 }
 
 body::selection {
 	background: #d1d6e9;
 }
+
 ::selection {
 	background: #d1d6e9;
 }
 
-
-header {
-
+nav ul{
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	padding: 0;
+	margin: 15px 0;
 }
 
-nav {
-	font-family: "Avenir";
+nav ul li {
+	display: inline-block;
+	float: left;
+	padding: 0;
+	margin: 0 20px 0 0;
 }
+
+nav ::after {
+	content : " ";
+	display: table;
+	clear: both;
+} /* clearfix */
 
 footer {
 	margin-top: 30px;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	color: #444;
-	font-family: "Avenir";
+	color: #333;
 	font-weight: 500;
 }
 
@@ -41,11 +55,11 @@ h2 {
 }
 
 h3 {
-/*	margin-top: 1.5em;*/
+	font-size: 20px;
 }
 
 h4 {
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .caption,
@@ -53,32 +67,12 @@ h4 {
 	color: #aaa;
 	margin-top: -1.8em;
 	font-size: 14px;
-}
-
-
-/*.date span:nth-child(2) {
-	margin-left: 10px;
-}
-*/
-.tag {
-	background: #eee;
-	color: #fff;
-	border-radius: 10px;
-	padding: 1px 5px;
-}
-
-.tag:hover {
-	background: #aaa;
+	font-weight: bold;
 }
 
 p,b,a,blockquote,li,td,tr,th {
 	line-height: 25px;
 	margin: 0 0 1em;
-}
-
-nav>a {
-	line-height: 14px;
-	padding: 0 10px;
 }
 
 blockquote {
@@ -109,10 +103,6 @@ hr.postSeperator {
 	margin-bottom: 3em;
 }
 
-code {
-}
-
-
 pre {
 	padding: 10px;
 	font-size: 12px;
@@ -125,58 +115,6 @@ pre {
 	white-space: -pre-wrap;      /* Opera 4-6 */
 	white-space: -o-pre-wrap;    /* Opera 7 */
 	word-wrap: break-word;       /* Internet Explorer 5.5+ */
-}
-
-
-mark {
-	background-color: rgb(240,240,126);
-	color: #222;
-	padding: 0px 2px;
-}
-
-/* Layout */
-
-body {
-	max-width: 900px;
-	min-width: 320px;
-	padding: 15px;
-	margin: 0 auto;
-}
-
-.col {
-	column-count:2;
-	column-gap: 40px;
-	column-rule: 1px solid #ddd;
-
-	-webkit-column-count:2;
-	-webkit-column-gap: 20px;
-	-webkit-column-rule: 1px solid #ddd;
-	
-	-moz-column-count:2;
-	-moz-column-gap: 40px;
-	-moz-column-rule: 1px solid #ddd;
-}
-
-.col p {
-	line-height: 24px;
-}
-
-.col h4 {
-	margin-top: 0;
-}
-
-/* Media Queries */
-@media screen and (max-width: 600px) {
-	body .col {
-		display: block;
-		width: 100%;
-		
-		column-count:1;
-		-webkit-column-count:1;
-		-moz-column-count:1;
-		
-		padding-bottom: 2em;
-	}
 }
 
 /* Images */
@@ -213,14 +151,6 @@ tr:nth-child(n+2)>td:hover{
 	background: rgba(87, 95, 120, 0.2);
 }
 
-
-/* Nav */
-
-nav a {
-	margin-left:-4px;
-}
-
-
 /* Posts */
 
 .post{
@@ -253,30 +183,7 @@ div.grid a{
 div.grid a:hover {
 	background: none;
 	opacity: .25;
-	transition: 1s;
-}
-
-.postTitle {
-	margin-bottom: 0px;
-}
-
-.postSubtitle {
-	color: #888;
-	font-size: 10px;
-	font-weight: bold;
-	line-height: 12px;
-}
-
-.postReadMore {
-	background: rgba(50,50,50,0.1);
-	border-bottom: none;
-	border-radius: 2px;
-	color: #444;
-	padding: 2px 4px;
-}
-
-.postReadMore:hover {
-	background: rgba(50,50,50,0.3);
+	transition: 0.2s;
 }
 
 .sectionBreak {
@@ -290,7 +197,9 @@ div.grid a:hover {
 	padding:0px;
 	margin:0px;
 }
+
 /* Apps */
+
 .hor-scroller {
 	overflow: scroll;
 	overflow-y: hidden !important;
