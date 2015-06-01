@@ -103,6 +103,14 @@ hr.postSeperator {
 	margin-bottom: 3em;
 }
 
+.biography {
+	border-bottom: 5px #ddd solid;
+	border-top: 5px #ddd solid;
+	font-size: 30px;
+	line-height: 45px;
+	padding: 30px 0px 30px 0px;
+}
+
 pre {
 	padding: 10px;
 	font-size: 12px;
