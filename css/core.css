@@ -77,6 +77,46 @@ h4 {
 	font-weight: bold;
 }
 
+.blog-nav {
+	background: #f4f4f4;
+}
+
+.blog-nav p {
+	margin: 0px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.blog-nav-next,
+.blog-nav-previous {
+	display: inline-block;
+	width: 46%;
+	height: 100%;
+	padding: 2%;
+	margin-bottom: 0px;
+}
+
+.blog-nav-next:hover,
+.blog-nav-previous:hover {
+	background: #fafafa;
+}
+
+.blog-nav-next {
+	float: left;
+}
+
+.blog-nav-previous {
+	float: right;
+	text-align: right;
+}
+
+.blog-nav::after {
+	content : " ";
+	display: table;
+	clear: both;
+} /* clearfix */
+
 p,b,a,blockquote,li,td,tr,th {
 	line-height: 30px;
 	margin: 0 0 1em;

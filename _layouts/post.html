@@ -6,7 +6,7 @@ layout: default
 
 <article>
         <header>
-			<h2>{{ page.title }}</h1>
+			<h2><a href="{{page.url}}">{{ page.title }}</a></h1>
 
 			{% if page.date %}
 				<p class="caption">{{ page.date|date:"%d %b %Y" }}  {% if page.subtitle %} &mdash; {{ page.subtitle }} {% endif %}</p></p>
@@ -17,6 +17,24 @@ layout: default
         </header>
 
         <div class="entry">{{ content }}</div>
+
+		<div class="blog-nav">
+			<div>
+			{% if page.next %}
+				<a href="{{ page.next.url }}" class="blog-nav-next">
+					<p>Next</p>
+					<p>{{ page.next.title }}</p>
+				</a>
+			{% endif %}
+
+			{% if page.previous %}
+				<a href="{{ page.previous.url }}" class="blog-nav-previous">
+					<p>Previous</p>
+					<p>{{ page.previous.title }}</p>
+				</a>
+			{% endif %}
+			</div>
+		</div>
 
 </article>
 
