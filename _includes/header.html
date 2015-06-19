@@ -1,14 +1,22 @@
 <!doctype HTML>
-<html>
+<html lang="en">
 
-{% include head.html %}
-
-<body>
+	<head>
+		<title>Joseph O'Reilly - {{ page.title }}</title>
 	
-	<header>
+		<link rel="stylesheet" type="text/css" href="/css/core.css">
+		<link rel="stylesheet" type="text/css" href="/css/styles/github.css">
+
+		<script type="text/javascript" src="/js/highlight.pack.js"></script>
+		<script>hljs.initHighlightingOnLoad();</script>
+	</head>
+
+	<body>
+	
+		<header>
 		
-		<h1><a href="/">Joe O'Reilly</a></h1>
+			<h1><a href="/">Joe O'Reilly</a></h1>
 		
-		{% include nav.html %}
+			{% include nav.html %}
 		
-	</header>
+		</header>
