@@ -78,7 +78,7 @@ h4 {
 }
 
 .blog-nav {
-	background: #f4f4f4;
+	background: #dfdfdf;
 }
 
 .blog-nav p {
@@ -99,7 +99,7 @@ h4 {
 
 .blog-nav-next:hover,
 .blog-nav-previous:hover {
-	background: #fafafa;
+	background: #f4f4f4;
 }
 
 .blog-nav-next {
