@@ -37,6 +37,16 @@ nav ul li {
 	margin: 0 20px 0 0;
 }
 
+/* Sub-lists */
+
+li > ul {
+	margin: 10px 15px 0 0;
+}
+
+li > ul >li {
+	line-height: 14px;
+}
+
 nav ::after {
 	content : " ";
 	display: table;
