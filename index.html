@@ -5,7 +5,9 @@ recent_post_count: 5
 
 {% include header.html %}
 
-<h2 class="bio">I'm Joseph O'Reilly. I build <a href="http://www.tvplayer.com/apps/">TVPlayer</a> at <a href="http://simplestream.com">Simplestream</a></p>
+<center>
+	<p>I'm Joseph, I build <a href="http://www.tvplayer.com/apps/">TVPlayer</a> and <a href="/apps">other things</a> at <a href="http://simplestream.com">Simplestream</a></p>
+</center>
 
 <h3>{{ page.recent_post_count }} Recent Posts</h3>
 <p class="caption"><a href="/blog/">Full archive</a></p>
@@ -15,7 +17,7 @@ recent_post_count: 5
 {% for post in site.posts %}
 	{% if counter < page.recent_post_count %}
 	    {% assign counter=counter | plus:1 %}
-		<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+		<p><a href="{{ post.url }}">{{ post.title }}</a></p>
 
 		{% if post.date %}
 			<p class="caption">{{ post.date|date:"%d %b %Y" }}  {% if post.subtitle %} &mdash; {{ post.subtitle }} {% endif %}</p></p>
@@ -24,7 +26,6 @@ recent_post_count: 5
 		{% endif %}
 		<hr>
 	{% endif %}
-
 {% endfor %}
 
 {% include footer.html %}
