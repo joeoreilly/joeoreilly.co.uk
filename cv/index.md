@@ -15,7 +15,7 @@ I am an iOS developer with three years industry experience, plus five further ye
 
 * Built and maintained multiple client iOS Apps
 * Worked with live, catch up and, on demand streaming video content
-* Debugged apps with tools like //TODO
+* Debugged apps with `NSLog(...)`, breakpoints, LLDB, static analysis, and `NSZombie`
 * Profiled apps to improve performance
 * Worked with RESTful JSON APIs
 
