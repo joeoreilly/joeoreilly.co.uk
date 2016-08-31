@@ -9,34 +9,34 @@ My study has centered around icons, symbols and illustration. To extend my perso
 
 ### Contact Sheet
 
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-01.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-01.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-02.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-02.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-03.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-03.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-04.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-04.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-05.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-05.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-06.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-06.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-07.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-07.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-08.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-08.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-09.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-09.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-10.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-10.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-11.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-11.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-12.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-12.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-13.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-13.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-14.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-14.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-15.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-15.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-16.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-16.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-17.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-17.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-18.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-18.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-19.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-19.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-20.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-20.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-21.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-21.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-22.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-22.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-23.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-23.JPG" /> </a>
-<a rel="milkbox:gallery" href="/media/images/contactsheets/sheet1/image-24.JPG"> <img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-24.JPG" /> </a>
+<a href="/media/images/contactsheets/sheet1/image-01.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-01.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-02.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-02.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-03.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-03.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-04.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-04.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-05.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-05.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-06.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-06.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-07.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-07.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-08.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-08.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-09.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-09.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-10.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-10.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-11.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-11.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-12.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-12.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-13.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-13.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-14.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-14.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-15.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-15.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-16.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-16.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-17.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-17.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-18.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-18.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-19.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-19.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-20.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-20.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-21.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-21.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-22.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-22.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-23.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-23.JPG"></a>
+<a href="/media/images/contactsheets/sheet1/image-24.JPG"><img src="/media/images/contactsheets/sheet1/thumbs/thumbnail-24.JPG"></a>
 
 ### The Plan
 
-![](/media/images/the_monster.jpg) <!-- ![](/media/images/the_monster.jpg" class="img-right) -->
+![](/media/images/the_monster.jpg)
 
 I plan to illustrate three key scenes from within the book as to illustarte it completely would take far to long. I can also focus more attention on each illustration this way, with much better results. The three scenes I want to create illustrations for are:
 
@@ -57,7 +57,7 @@ I opened the image I picked and set up my work space.
 I created outlines of all of the major shapes, torso, hands, feet and head. I then started work on the legs as they are the biggest area in the image. I used soft black and white shapes to add tone to the trousers and sharp black objects of details.
 
 <a onmouseover="document.trousers.src='/media/images/frank-illustration-03b.png'" onmouseout="document.trousers.src='/media/images/frank-illustration-03a.png'"><img src="/media/images/frank-illustration-03a.png" name="trousers">
-<br />Roll over me to see a detailed view of shapes
+<br>Roll over me to see a detailed view of shapes
 </a>
 
 I carried on creating more layers and more complexity. Working in detail on the hands for some time.

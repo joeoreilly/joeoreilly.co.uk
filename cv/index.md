@@ -1,10 +1,10 @@
 ---
 title: Curriculum Vitae
 layout: cv
-lastupdate: 27th August 2015
+lastupdate: 28th August 2016
 ---
 
-I am an iOS developer with three years industry experience, plus five further years in the larger IT industry. I'm passionate about design, creating accessible, attractive user interfaces and writing well structured, efficient and presentable code. I enjoy working in teams and independently. I am confident in prioritising tasks and managing multiple demands. I'm comfortable working with staff at all levels of a business and have done so throughout my career. I have a strong creative process and enjoy good design, and I am also confident in Adobe Photoshop.
+I am an iOS developer with four years industry experience. I'm passionate about design, creating accessible, attractive user interfaces and writing well structured, efficient and organised code. I enjoy working in teams and independently. I am confident prioritising tasks and managing demands. 
 
 ---
 
@@ -13,8 +13,9 @@ I am an iOS developer with three years industry experience, plus five further ye
 ### Simplestream Limited - iOS Developer
 <p class="date">2014 - present</p>
 
-* Built and maintained multiple client iOS Apps
+* Built and maintained a large number of client and in house iOS Apps
 * Worked with live, catch up and, on demand streaming video content
+* Created reusable components, that were used in multiple projects
 * Debugged apps with `NSLog(...)`, breakpoints, LLDB, static analysis, and `NSZombie`
 * Profiled apps to improve performance
 * Worked with RESTful JSON APIs
@@ -43,19 +44,19 @@ I am an iOS developer with three years industry experience, plus five further ye
 ### iOS Development
 
 * Confident in Objective-C and C
-* Currently learning Swift
+* Compitent in Swift 3.0
 * Confident with CocoaTouch APIs including:
-	* Blocks and multithreading
-	* Networking
-	* AVFoundation
-	* KVO and `NSNotification`
-	* Push notifications
-	* In-App Purchase
 	* UIKit
+	* AVFoundation
 	* Auto Layout
+	* Networking
+	* KVO and `NSNotification`
+	* Blocks and multithreading
+	* Push notifications
 	* CoreGraphics
 	* CoreAnimation
 	* CoreData
+	* In-App Purchase
 * Experienced with Git
 * Experienced with CocoaPods
 * Confident with delegation, protocols, and other cocoa practices
@@ -68,13 +69,6 @@ I am an iOS developer with three years industry experience, plus five further ye
 * Can communicate complex information clearly
 * Sociable, polite, and easy going
 * Strong believer in equality and diversity
-
-### Miscellaneous
-
-* Working knowledge of Java, PHP, and Javascript
-* Confident in the Terminal
-* Confident with FTP, SSH and S3
-* Confident with Adobe tools
 
 ---
 
@@ -96,7 +90,7 @@ I am an iOS developer with three years industry experience, plus five further ye
 * Database Design
 
 ### Chalfonts Community College
-_September 2002 - May 2010_
+<p class="date">September 2002 - May 2014, BSc Computer Science</p>
 
 A Levels; Art & Design (A), ICT (C)
 

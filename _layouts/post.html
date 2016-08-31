@@ -18,17 +18,17 @@ layout: default
 
         <div class="entry">{{ content }}</div>
 
-		<div class="blog-nav">
+		<div class="post-nav">
 			<div>
 			{% if page.next %}
-				<a href="{{ page.next.url }}" class="blog-nav-next">
+				<a href="{{ page.next.url }}" class="post-nav-next">
 					<p>Next</p>
 					<p>{{ page.next.title }}</p>
 				</a>
 			{% endif %}
 
 			{% if page.previous %}
-				<a href="{{ page.previous.url }}" class="blog-nav-previous">
+				<a href="{{ page.previous.url }}" class="post-nav-previous">
 					<p>Previous</p>
 					<p>{{ page.previous.title }}</p>
 				</a>

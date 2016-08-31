@@ -1,43 +1,64 @@
 ---
-layout: default
 title: Blog
 ---
 
 {% include header.html %}
 
 {% for post in paginator.posts %}
-	<h2><a href="{{ post.url }}">{{ post.title }}</a></h1>
+	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
 	{% if post.date %}
-		<p class="caption">{{ post.date|date:"%d %b %Y" }}  {% if post.subtitle %} &mdash; {{ post.subtitle }} {% endif %}</p></p>
+		<p class="caption">{{ post.date|date:"%d %b %Y" }}  {% if post.subtitle %} &mdash; {{ post.subtitle }} {% endif %}</p>
 	{% elsif post.subtitle %}
 		<p class="caption">{{ post.subtitle }}</p>
 	{% endif %}
 
 	<div class="content">
-	{% if post.content contains "<!-- more -->" %}
-		{{ post.content | split:"<!-- more -->" | first % }}
-	{% else %}
-		{{ post.content | truncatewords:100 }}
-	{% endif %}
+		{% if post.content contains "<!-- more -->" %}
+			{{ post.content | split:"<!-- more -->" | first }}
+		{% else %}
+			{{ post.content | truncatewords:100 }}
+		{% endif %}
 	</div>
+
 	<a href="{{ post.url }}">Read more</a>
-	<hr class="postSeperator">
+	
+	<hr>
 {% endfor %}
 
+	<br>
+
 <!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="/blog/page{{ paginator.previous_page }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="/blog/page{{ paginator.next_page }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-</div>
+
+	<div class="blog-nav">
+		<div>
+		
+		{% if paginator.previous_page %}
+			{% if paginator.previous_page == 1 %}
+			<a href="/blog/" class="blog-nav-previous clearfix">
+			{% else %}
+			<a href="/blog/page{{ paginator.previous_page }}" class="blog-nav-previous clearfix">
+			{% endif %}
+				<p>Page {{ paginator.previous_page }}</p>
+			</a>
+		{% else %}
+			<p class="blog-nav-previous blog-nav-disabled"></p>
+		{% endif %}
+
+
+		<div class="blog-nav-page">
+			<p>Page {{ paginator.page }}</p>
+		</div>
+
+		{% if paginator.next_page %}
+			<a href="/blog/page{{ paginator.next_page }}" class="blog-nav-next">
+				<p>Page {{ paginator.next_page }}</p>
+			</a>
+		{% else %}
+			<p class="blog-nav-next blog-nav-disabled">The End.</p>
+		{% endif %}
+
+		</div>
+	</div>
 
 {% include footer.html %}

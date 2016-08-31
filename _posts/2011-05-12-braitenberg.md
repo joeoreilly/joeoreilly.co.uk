@@ -13,7 +13,7 @@ This setup causes the any light sources to the vehicles lefthand side to cause i
 
 In this video you can see this behaviour when the world is drawn and the vehicles are spawned near light sources.
 
-<video controls width="100%">
+<video controls preload=none>
 	<source src="/media/video/turtles_1.mp4" >
 	<source src="/media/video/turtles_1.ogv" >
 </video>

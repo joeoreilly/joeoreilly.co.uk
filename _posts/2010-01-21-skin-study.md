@@ -18,10 +18,10 @@ I used my Gorilla pod to steady the camera and the timer so as to get the result
 
 Here are the best photographs I captured. Click on them to enlarge. The second image is my favourite.
 
-<a rel="milkbox:gallery" href="images/skin/lucy-skin-07.jpg" onmouseover="document.loo1.src='/media/images/skin/lucy-skin-thumb-07a.jpg'" onmouseout="document.loo1.src='/media/images/skin/lucy-skin-thumb-07.jpg'"><img src="/media/images/skin/lucy-skin-thumb-07.jpg" name="loo1" /></a>
-<a rel="milkbox:gallery" href="images/skin/lucy-skin-08.jpg" onmouseover="document.loo2.src='/media/images/skin/lucy-skin-thumb-08a.jpg'" onmouseout="document.loo2.src='/media/images/skin/lucy-skin-thumb-08.jpg'"><img src="/media/images/skin/lucy-skin-thumb-08.jpg" name="loo2" /></a>
-<a rel="milkbox:gallery" href="images/skin/lucy-skin-09.jpg" onmouseover="document.loo3.src='/media/images/skin/lucy-skin-thumb-09a.jpg'" onmouseout="document.loo3.src='/media/images/skin/lucy-skin-thumb-09.jpg'"><img src="/media/images/skin/lucy-skin-thumb-09.jpg" name="loo3" /></a>
-<a rel="milkbox:gallery" href="images/skin/lucy-skin-10.jpg" onmouseover="document.loo4.src='/media/images/skin/lucy-skin-thumb-10a.jpg'" onmouseout="document.loo4.src='/media/images/skin/lucy-skin-thumb-10.jpg'"><img src="/media/images/skin/lucy-skin-thumb-10.jpg" name="loo4" /></a>
+<a href="images/skin/lucy-skin-07.jpg" onmouseover="document.loo1.src='/media/images/skin/lucy-skin-thumb-07a.jpg'" onmouseout="document.loo1.src='/media/images/skin/lucy-skin-thumb-07.jpg'"><img src="/media/images/skin/lucy-skin-thumb-07.jpg" name="loo1" /></a>
+<a href="images/skin/lucy-skin-08.jpg" onmouseover="document.loo2.src='/media/images/skin/lucy-skin-thumb-08a.jpg'" onmouseout="document.loo2.src='/media/images/skin/lucy-skin-thumb-08.jpg'"><img src="/media/images/skin/lucy-skin-thumb-08.jpg" name="loo2" /></a>
+<a href="images/skin/lucy-skin-09.jpg" onmouseover="document.loo3.src='/media/images/skin/lucy-skin-thumb-09a.jpg'" onmouseout="document.loo3.src='/media/images/skin/lucy-skin-thumb-09.jpg'"><img src="/media/images/skin/lucy-skin-thumb-09.jpg" name="loo3" /></a>
+<a href="images/skin/lucy-skin-10.jpg" onmouseover="document.loo4.src='/media/images/skin/lucy-skin-thumb-10a.jpg'" onmouseout="document.loo4.src='/media/images/skin/lucy-skin-thumb-10.jpg'"><img src="/media/images/skin/lucy-skin-thumb-10.jpg" name="loo4" /></a>
 
 #### [Download Contact Sheet](/media/images/skin/skin-contact-sheet.pdf)
 
