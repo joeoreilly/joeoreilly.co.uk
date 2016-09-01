@@ -44,7 +44,7 @@ I am an iOS developer with four years industry experience. I'm passionate about 
 ### iOS Development
 
 * Confident in Objective-C and C
-* Compitent in Swift 3.0
+* Confident in Swift 3.0
 * Confident with CocoaTouch APIs including:
 	* UIKit
 	* AVFoundation
@@ -90,7 +90,7 @@ I am an iOS developer with four years industry experience. I'm passionate about 
 * Database Design
 
 ### Chalfonts Community College
-<p class="date">September 2002 - May 2014, BSc Computer Science</p>
+<p class="date">September 2002 - May 2010</p>
 
 A Levels; Art & Design (A), ICT (C)
 
