@@ -7,7 +7,7 @@ I went in search of some pieces of Clasic art that have either influenced later 
 
 ## Crude Oils - The Singing Butler
 
-<img src="/media/images/influences/crude-oil.jpg" class="photo-view" name="vettriano" alt="ruth slideshow"/>
+<img src="/media/images/influences/crude-oil.jpg" class="photo-view" name="vettriano" alt="ruth slideshow">
 ---
 
 Click to switch artists:

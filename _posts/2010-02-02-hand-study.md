@@ -9,9 +9,9 @@ layout: post
 
 I decided it would be good to practice this new illustration technique with a smaller target. I snapped a few photos of my hand that I could use,
 
-<a href="/media/images/hands/hand-large-01.jpg"><img alt="Hand 1" src="/media/images/hands/hand-01.png"/></a>
-<a href="/media/images/hands/hand-large-02.jpg"><img alt="Hand 2" src="/media/images/hands/hand-02.png"/></a>
-<a href="/media/images/hands/hand-large-03.jpg"><img alt="Hand 3" src="/media/images/hands/hand-03.png"/></a>
+<a href="/media/images/hands/hand-large-01.jpg"><img alt="Hand 1" src="/media/images/hands/hand-01.png"></a>
+<a href="/media/images/hands/hand-large-02.jpg"><img alt="Hand 2" src="/media/images/hands/hand-02.png"></a>
+<a href="/media/images/hands/hand-large-03.jpg"><img alt="Hand 3" src="/media/images/hands/hand-03.png"></a>
 
 I opened the photos in Illustrator and started to work.
 

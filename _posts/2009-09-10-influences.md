@@ -5,7 +5,7 @@ layout: post
 
 I took my Girlfriend out for a hot chocolate and brought my camera along, I captured some really nice shots. Here are my favourite few.
 
-<img src="/media/images/influences/ruth-001.jpg" name="ruth" alt="ruth slideshow"/>
+<img src="/media/images/influences/ruth-001.jpg" name="ruth" alt="ruth slideshow">
 
 Switch Photographs
 

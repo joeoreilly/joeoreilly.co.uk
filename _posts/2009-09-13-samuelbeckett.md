@@ -14,7 +14,7 @@ This Photograph of Samuel Beckett was taken by Jane Brown. Beckett was a writer 
 When we first look at the photograph our eyes a pulled strait to Samuel Beckett, the subject. The wooden planks on the right point towards his face, and the absolute black the surrounds him focuses the audience on his face. Becketts deep wrinkles guide our eyes. The furrows on his brow channel our eyes toward his, as do the lines around his eyes and mouth.
 
 <a onmouseover="document.beckett.src='/media/images/influences/beckett3.jpg'" onmouseout="document.beckett.src='/media/images/influences/beckett2.jpg'">
-<img src="/media/images/influences/beckett2.jpg" name="beckett" />
+<img src="/media/images/influences/beckett2.jpg" name="beckett" >
 
 *Mouse over to see the paths*
 </a>
@@ -23,7 +23,7 @@ When we first look at the photograph our eyes a pulled strait to Samuel Beckett,
 The wooden planks seem like rays of light, illuminating his face. However his face is unevenly lit, his wrinkles cast deep shadows accross his face. His right eye is very bright, and reflects the light source which is to the left behind the Photographer. Because of this the area to right, the right hand third, is lit while the left is not making the picture visually unballanced and creating intrest.
 
 <a onmouseover="document.beckett2.src='/media/images/influences/beckett4.jpg'" onmouseout="document.beckett2.src='/media/images/influences/beckett2.jpg'" onclick="document.beckett2.src='/media/images/influences/beckett5.jpg'">
-<img src="/media/images/influences/beckett2.jpg" name="beckett2" />
+<img src="/media/images/influences/beckett2.jpg" name="beckett2" >
 
 *Mouse over to see the paths, click for thirds*
 </a>

@@ -18,28 +18,28 @@ I used my Gorilla pod to steady the camera and the timer so as to get the result
 
 Here are the best photographs I captured. Click on them to enlarge. The second image is my favourite.
 
-<a href="images/skin/lucy-skin-07.jpg" onmouseover="document.loo1.src='/media/images/skin/lucy-skin-thumb-07a.jpg'" onmouseout="document.loo1.src='/media/images/skin/lucy-skin-thumb-07.jpg'"><img src="/media/images/skin/lucy-skin-thumb-07.jpg" name="loo1" /></a>
-<a href="images/skin/lucy-skin-08.jpg" onmouseover="document.loo2.src='/media/images/skin/lucy-skin-thumb-08a.jpg'" onmouseout="document.loo2.src='/media/images/skin/lucy-skin-thumb-08.jpg'"><img src="/media/images/skin/lucy-skin-thumb-08.jpg" name="loo2" /></a>
-<a href="images/skin/lucy-skin-09.jpg" onmouseover="document.loo3.src='/media/images/skin/lucy-skin-thumb-09a.jpg'" onmouseout="document.loo3.src='/media/images/skin/lucy-skin-thumb-09.jpg'"><img src="/media/images/skin/lucy-skin-thumb-09.jpg" name="loo3" /></a>
-<a href="images/skin/lucy-skin-10.jpg" onmouseover="document.loo4.src='/media/images/skin/lucy-skin-thumb-10a.jpg'" onmouseout="document.loo4.src='/media/images/skin/lucy-skin-thumb-10.jpg'"><img src="/media/images/skin/lucy-skin-thumb-10.jpg" name="loo4" /></a>
+<a href="images/skin/lucy-skin-07.jpg" onmouseover="document.loo1.src='/media/images/skin/lucy-skin-thumb-07a.jpg'" onmouseout="document.loo1.src='/media/images/skin/lucy-skin-thumb-07.jpg'"><img src="/media/images/skin/lucy-skin-thumb-07.jpg" name="loo1" ></a>
+<a href="images/skin/lucy-skin-08.jpg" onmouseover="document.loo2.src='/media/images/skin/lucy-skin-thumb-08a.jpg'" onmouseout="document.loo2.src='/media/images/skin/lucy-skin-thumb-08.jpg'"><img src="/media/images/skin/lucy-skin-thumb-08.jpg" name="loo2" ></a>
+<a href="images/skin/lucy-skin-09.jpg" onmouseover="document.loo3.src='/media/images/skin/lucy-skin-thumb-09a.jpg'" onmouseout="document.loo3.src='/media/images/skin/lucy-skin-thumb-09.jpg'"><img src="/media/images/skin/lucy-skin-thumb-09.jpg" name="loo3" ></a>
+<a href="images/skin/lucy-skin-10.jpg" onmouseover="document.loo4.src='/media/images/skin/lucy-skin-thumb-10a.jpg'" onmouseout="document.loo4.src='/media/images/skin/lucy-skin-thumb-10.jpg'"><img src="/media/images/skin/lucy-skin-thumb-10.jpg" name="loo4" ></a>
 
 #### [Download Contact Sheet](/media/images/skin/skin-contact-sheet.pdf)
 
 After this, I tried again with my Girlfriend.
 
-<a rel="milkbox:gallery2" href="/media/images/skin/ruth-skin-01.jpg" onmouseover="document.ruth1.src='/media/images/skin/ruth-skin-thumb-01a.jpg'" onmouseout="document.ruth1.src='/media/images/skin/ruth-skin-thumb-01.jpg'"><img src="/media/images/skin/ruth-skin-thumb-01.jpg" name="ruth1" /></a>
-<a rel="milkbox:gallery2" href="/media/images/skin/ruth-skin-03.jpg" onmouseover="document.ruth2.src='/media/images/skin/ruth-skin-thumb-03a.jpg'" onmouseout="document.ruth2.src='/media/images/skin/ruth-skin-thumb-03.jpg'"><img src="/media/images/skin/ruth-skin-thumb-03.jpg" name="ruth2" /></a>
-<a rel="milkbox:gallery2" href="/media/images/skin/ruth-skin-05.jpg" onmouseover="document.ruth3.src='/media/images/skin/ruth-skin-thumb-05a.jpg'" onmouseout="document.ruth3.src='/media/images/skin/ruth-skin-thumb-05.jpg'"><img src="/media/images/skin/ruth-skin-thumb-05.jpg" name="ruth3" /></a>
-<a rel="milkbox:gallery2" href="/media/images/skin/ruth-skin-10.jpg" onmouseover="document.ruth4.src='/media/images/skin/ruth-skin-thumb-10a.jpg'" onmouseout="document.ruth4.src='/media/images/skin/ruth-skin-thumb-10.jpg'"><img src="/media/images/skin/ruth-skin-thumb-10.jpg" name="ruth4" /></a>
+<a rel="milkbox:gallery2" href="/media/images/skin/ruth-skin-01.jpg" onmouseover="document.ruth1.src='/media/images/skin/ruth-skin-thumb-01a.jpg'" onmouseout="document.ruth1.src='/media/images/skin/ruth-skin-thumb-01.jpg'"><img src="/media/images/skin/ruth-skin-thumb-01.jpg" name="ruth1" ></a>
+<a rel="milkbox:gallery2" href="/media/images/skin/ruth-skin-03.jpg" onmouseover="document.ruth2.src='/media/images/skin/ruth-skin-thumb-03a.jpg'" onmouseout="document.ruth2.src='/media/images/skin/ruth-skin-thumb-03.jpg'"><img src="/media/images/skin/ruth-skin-thumb-03.jpg" name="ruth2" ></a>
+<a rel="milkbox:gallery2" href="/media/images/skin/ruth-skin-05.jpg" onmouseover="document.ruth3.src='/media/images/skin/ruth-skin-thumb-05a.jpg'" onmouseout="document.ruth3.src='/media/images/skin/ruth-skin-thumb-05.jpg'"><img src="/media/images/skin/ruth-skin-thumb-05.jpg" name="ruth3" ></a>
+<a rel="milkbox:gallery2" href="/media/images/skin/ruth-skin-10.jpg" onmouseover="document.ruth4.src='/media/images/skin/ruth-skin-thumb-10a.jpg'" onmouseout="document.ruth4.src='/media/images/skin/ruth-skin-thumb-10.jpg'"><img src="/media/images/skin/ruth-skin-thumb-10.jpg" name="ruth4" ></a>
 
 ### Downloaded Textures
 
 Because of the lack of success I've had creating my own textures I've been forced to supliment my good image with some **harvested** from Google Image search. Below are the ones I chose. Click to enlarge them.
 
-<a rel="milkbox:textures" href="/media/images/skin/skin-texture-large-01.jpg" onmouseover="document.skin1.src='/media/images/skin/skin-texture-01a.png'" onmouseout="document.skin1.src='/media/images/skin/skin-texture-01.png'" ><img src="/media/images/skin/skin-texture-01.png" name="skin1"/></a>
-<a rel="milkbox:textures" href="/media/images/skin/skin-texture-large-02.jpg" onmouseover="document.skin2.src='/media/images/skin/skin-texture-02a.png'" onmouseout="document.skin2.src='/media/images/skin/skin-texture-02.png'" ><img src="/media/images/skin/skin-texture-02.png" name="skin2"/></a>
-<a rel="milkbox:textures" href="/media/images/skin/skin-texture-large-03.jpg" onmouseover="document.skin3.src='/media/images/skin/skin-texture-03a.png'" onmouseout="document.skin3.src='/media/images/skin/skin-texture-03.png'" ><img src="/media/images/skin/skin-texture-03.png" name="skin3"/></a>
-<a rel="milkbox:textures" href="/media/images/skin/skin-texture-large-04.jpg" onmouseover="document.skin4.src='/media/images/skin/skin-texture-04a.png'" onmouseout="document.skin4.src='/media/images/skin/skin-texture-04.png'" ><img src="/media/images/skin/skin-texture-04.png" name="skin4"/></a>
+<a rel="milkbox:textures" href="/media/images/skin/skin-texture-large-01.jpg" onmouseover="document.skin1.src='/media/images/skin/skin-texture-01a.png'" onmouseout="document.skin1.src='/media/images/skin/skin-texture-01.png'" ><img src="/media/images/skin/skin-texture-01.png" name="skin1"></a>
+<a rel="milkbox:textures" href="/media/images/skin/skin-texture-large-02.jpg" onmouseover="document.skin2.src='/media/images/skin/skin-texture-02a.png'" onmouseout="document.skin2.src='/media/images/skin/skin-texture-02.png'" ><img src="/media/images/skin/skin-texture-02.png" name="skin2"></a>
+<a rel="milkbox:textures" href="/media/images/skin/skin-texture-large-03.jpg" onmouseover="document.skin3.src='/media/images/skin/skin-texture-03a.png'" onmouseout="document.skin3.src='/media/images/skin/skin-texture-03.png'" ><img src="/media/images/skin/skin-texture-03.png" name="skin3"></a>
+<a rel="milkbox:textures" href="/media/images/skin/skin-texture-large-04.jpg" onmouseover="document.skin4.src='/media/images/skin/skin-texture-04a.png'" onmouseout="document.skin4.src='/media/images/skin/skin-texture-04.png'" ><img src="/media/images/skin/skin-texture-04.png" name="skin4"></a>
 
 ### The Process
 
