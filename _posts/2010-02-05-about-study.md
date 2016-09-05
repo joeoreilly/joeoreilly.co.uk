@@ -30,7 +30,7 @@ After my first experiment I hit up a few of my favourite art blogs as they often
 
 ![](/media/images/artblogs.png)
 
-[View image of page](images/bros-grimm.jpg) or maybe [view actual page](http://www.behance.net/Gallery/Brothers-Grimm-Fairy-Tales/416014).
+[View image of page](/media/images/bros-grimm.jpg) or maybe [view actual page](http://www.behance.net/Gallery/Brothers-Grimm-Fairy-Tales/416014).
 
 Andreas' illustrations capture the look, and feel I've been aiming for. So I will use his work as an inspiration for by next draft, I'll create a background texture for one page on paper and scan/photograph it into a book.
 
