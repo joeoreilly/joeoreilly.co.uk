@@ -13,11 +13,8 @@ layout: post
 >
 >The different accidents of life are not so changeable as the feelings of human nature. I had worked hard for nearly two years, for the sole purpose of infusing life into an inanimate body. For this I had deprived myself of rest and health. I had desired it with an ardour that far exceeded moderation; but now that I had finished, the beauty of the dream vanished, and breathless horror and disgust filled my heart. Unable to endure the aspect of the being I had created, I rushed out of the room and continued a long time traversing my bed-chamber, unable to compose my mind to sleep. At length lassitude succeeded to the tumult I had before endured, and I threw myself on the bed in my clothes, endeavouring to seek a few moments of forgetfulness. But it was in vain; I slept, indeed, but I was disturbed by the wildest dreams.
 >
->
->*Frankenstein &mdash; 69 of 345*
 
-
-<p>This is excerpt from the book describes the monster in vivid detail, I made it my mission </p>
+<p>Frankenstein, Page 69 &mdash;This is excerpt from the book describes the monster in vivid detail, I made it my mission </p>
 
 
 ![](/media/images/chapter5.png)

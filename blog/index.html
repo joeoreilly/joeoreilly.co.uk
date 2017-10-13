@@ -22,43 +22,44 @@ title: Blog
 	</div>
 
 	<a href="{{ post.url }}">Read more</a>
-	
-	<hr>
+    
 {% endfor %}
-
-	<br>
 
 <!-- Pagination links -->
 
 	<div class="blog-nav">
-		<div>
-		
-		{% if paginator.previous_page %}
+
+ 		{% if paginator.previous_page %}
+        <div class="blog-nav-active">
 			{% if paginator.previous_page == 1 %}
-			<a href="/blog/" class="blog-nav-previous clearfix">
+			<a href="/blog/">
 			{% else %}
-			<a href="/blog/page{{ paginator.previous_page }}" class="blog-nav-previous clearfix">
+			<a href="/blog/page{{ paginator.previous_page }}">
 			{% endif %}
-				<p>Page {{ paginator.previous_page }}</p>
+                Page {{ paginator.previous_page }}
 			</a>
 		{% else %}
-			<p class="blog-nav-previous blog-nav-disabled"></p>
+        <div class="blog-nav-disabled">
+			<a class="blog-nav-previous blog-nav-disabled"></a>
 		{% endif %}
-
+        </div>
+        
 
 		<div class="blog-nav-page">
 			<p>Page {{ paginator.page }}</p>
 		</div>
 
 		{% if paginator.next_page %}
-			<a href="/blog/page{{ paginator.next_page }}" class="blog-nav-next">
-				<p>Page {{ paginator.next_page }}</p>
-			</a>
+        <div  class="blog-nav-active">
+			<a href="/blog/page{{ paginator.next_page }}">
+                Page {{ paginator.next_page }}
+            </a>
 		{% else %}
-			<p class="blog-nav-next blog-nav-disabled">The End.</p>
+        <div class="blog-nav-disabled">
+			<p class="blog-nav-disabled">The End.</p>
 		{% endif %}
+    </div>
 
-		</div>
 	</div>
 
 {% include footer.html %}
